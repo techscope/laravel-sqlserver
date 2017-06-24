@@ -4,6 +4,11 @@ Use ODBC to connect with your SQL Server instances from Laravel 5+.
 This package allows you to use the OFFICIAL Microsoft SQL Server ODBC driver to 
 connect to a Microsoft SQL Server database.
 
+Disclaimer: all Bash commands you will see here are examples for RHEL/CentOS Yum package manager. 
+If you would like to help make these docs more friendly with other distros, please make sure to either 
+open an issue with additional commands specifying which distro you are using. I'll then update the README
+docs.
+
 ## Dependencies
 ### UnixODBC
 
@@ -25,6 +30,11 @@ You can cand specific instructions for your distro here: https://docs.microsoft.
 Install with composer
 ```bash
 composer require techscope/laravel-sqlserver:dev-master
+```
+
+Add the Service Provider to config/app.php
+```php
+TechScope\SqlServer\SqlServerServiceProvider::class
 ```
 
 Make sure to update your config/database.php file
