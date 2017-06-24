@@ -22,8 +22,8 @@ sudo yum install -y unixodbc
 sudo yum install -y php-odbc
 ```
 
-### Microsofts SQL Server Driver
-You can cand specific instructions for your distro here: https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server
+### Microsoft's SQL Server Driver
+You can find specific instructions for your distro here: https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server
 
 ## Package Installation
 
@@ -64,4 +64,4 @@ UsageCount=1
 - For the ODBC Driver **MAKE SURE TO REPLACE THE SQUARE BRACKETS ([]) WITH CURLY BRACES ({}) IN** `config/database.php`
 - You must use the `host`, `database`, `username`, `password`, `port` properties to properly setup the DSN string for the ODBC Connection
 - any additional parameters you'd like to use for the connection can be found here: https://docs.microsoft.com/en-us/sql/relational-databases/native-client/applications/using-connection-string-keywords-with-sql-server-native-client
-    - **NOTE:** the `Database`, `Server`, `UID`, `PWD`, `Network`, `Net`, `DSN` and `Database` properties cannot be used here as they are already specified the Laravel way 
+    - **NOTE:** the `Address`, `Addr`, `Database`, `Server`, `UID`, `PWD`, `Network`, `Net`, `DSN` and `Database` properties cannot be used here and will be ignored as they are already specified the Laravel way 
