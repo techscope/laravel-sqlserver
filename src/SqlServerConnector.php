@@ -1,6 +1,6 @@
 <?php
 
-namespace Techscope\SqlServer;
+namespace TechScope\SqlServer;
 
 use Illuminate\Database\Connectors\Connector;
 use Illuminate\Database\Connectors\ConnectorInterface;

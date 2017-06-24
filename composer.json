@@ -34,12 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Techscope\\SqlServer\\": "src"
+            "TechScope\\SqlServer\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Techscope\\SqlServer\\": "tests"
+            "TechScope\\SqlServer\\": "tests"
         }
     },
     "scripts": {
