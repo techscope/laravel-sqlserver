@@ -22,8 +22,9 @@ You can cand specific instructions for your distro here: https://docs.microsoft.
 
 ## Package Installation
 
+Install with composer
 ```bash
-composer install techscope/laravel-sqlserver
+composer require techscope/laravel-sqlserver:dev-master
 ```
 
 Make sure to update your config/database.php file
@@ -45,7 +46,7 @@ Make sure to update your config/database.php file
 - `driver` should be set to `sqlsrv`. This uses the preexisting SQL Server grammar that ships with Laravel.
 - `odbc_driver` should be the name of the ODBC Driver as it appears in `/etc/odbcinst.ini`. Example:
 ```vim
-[ODBC Driver 13 for SQL Server]
+[ODBC Driver 13 for SQL Server] <--- USE THIS LINE OR SIMILAR DEPENDENDING ON WHICH VERSION YOU INSTALL
 Description=Microsoft ODBC Driver 13 for SQL Server
 Driver=/opt/microsoft/msodbcsql/lib64/libmsodbcsql-13.1.so.8.0
 UsageCount=1

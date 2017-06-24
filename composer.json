@@ -25,7 +25,7 @@
     "require": {
         "illuminate/support": "~5.1",
         "php" : "^5.5.9|^7.0",
-        "ext-odbc": "^5.5.9|^7.0"
+        "ext-odbc": "^1.0"
 
     },
     "require-dev": {
