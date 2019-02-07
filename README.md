@@ -5,9 +5,7 @@ This package allows you to use the OFFICIAL Microsoft SQL Server ODBC driver to
 connect to a Microsoft SQL Server database.
 
 Disclaimer: all Bash commands you will see here are examples for RHEL/CentOS Yum package manager. 
-If you would like to help make these docs more friendly with other distros, please make sure to either 
-open an issue with additional commands specifying which distro you are using. I'll then update the README
-docs.
+If you would like to help make these docs more friendly with other distros, please make sure to either submit a pull request on the README or open an issue with additional commands specifying which distro you are using and I'll then update the README docs.
 
 ## Dependencies
 ### UnixODBC
