@@ -59,6 +59,7 @@ class SqlServerConnector extends Connector implements ConnectorInterface
         "ServerSPN",
         "StatsLog_On",
         "StatsLogFile",
+        "TDS_Version",
         "Trusted_Connection",
         "TrustServerCertificate",
 //        "UID",
